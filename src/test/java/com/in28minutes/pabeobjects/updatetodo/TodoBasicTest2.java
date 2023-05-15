@@ -33,7 +33,7 @@ public class TodoBasicTest2 {
 		driver.get("https://bulma.io/documentation/form/input/");
 		
 		ToDoPage page = PageFactory.initElements(driver, ToDoPage.class);
-		page.enterText("sartarus@mail.bg", "hugoboss", "random text");
+		page.enterText("*****@mail.bg", "*****", "random text");
 		
 		sleep(5);
 	}

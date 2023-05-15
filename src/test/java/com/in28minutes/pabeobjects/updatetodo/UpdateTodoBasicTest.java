@@ -33,20 +33,12 @@ public class UpdateTodoBasicTest {
 		driver.get("https://mail.bg/auth/lgn");
 		
 		LoginPage page = PageFactory.initElements(driver, LoginPage.class);
-		page.login("sartarus@mail.bg", "hugoboss");
+		page.login("*****@mail.bg", "*****");
 			
-		//page.email.sendKeys("sartarus@mail.bg");
-		//page.password.sendKeys("hugoboss");
+		//page.email.sendKeys("*****@mail.bg");
+		//page.password.sendKeys("*****");
 		
-//		page.enterName("sartarus@mail.bg");
-//		page.enterPassword("hugoboss");
-//		
-//		sleep(1);
-//		
-//		//page.submitButton.submit();
-//		page.submit();
-//		
-//		sleep(1);
+		sleep(1);
 		
 	}
 	
